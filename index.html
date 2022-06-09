@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamping</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="/WebPage/images and files/menu.png" alt="menu page" class="menuimage" id="menuimage">
+            <img src="/WebPage/images and files/logo.png" alt="logo page" class="logoimage" id="logoimage" onclick="toggleImage()">
+            <ul>
+                <li> <a href="https://www.amazon.in/Indoor-Lighting/b?ie=UTF8&node=1380485031">Latest</a></li>
+                <li><a href="https://in.pinterest.com/ylighting/designer-modern-lighting-that-makes-a-statement/">Modern</a></li>
+                <li><a href="https://www.whiteteak.com/?utm_campaign=ATCK_Brand&utm_source=google&utm_medium=cpc&utm_content=439592535343&utm_term=living%20lights&adgroupid=104714058849&gclid=CjwKCAjwtIaVBhBkEiwAsr7-c1G9X2sYJL-rgIKuM1cZWYpKU4f7Z-zMg-hCeNi_iNvUe0H27Bd2NxoCzEsQAvD_BwE">Contempory</a></li>
+                <li><a href="https://www.made-in-china.com/manufacturers/ceiling-light.html">Afforadable</a></li>
+            </ul>
+            <button type="button" onclick="toggleBtn()" id="btn"> <span></span></button>
+        </nav>
+
+        <div class="lampcontainer">
+            <img src="/WebPage/images and files/lamp.png" alt="lampphoto" class="lamp">
+            <img src="/WebPage/images and files/light.png" alt="light" class="light" id="light">
+        </div>
+        <div class="textcontainer">
+            <h1>Latest 
+            <br> in lighting</h1>
+            <p>This is the first lamp from our company.We're making a huge collection of Modern
+            Lamps in all categories from home use to office use. </p>
+            <a href="">Check all other products</a>
+            <div class="control">
+                <p>04</p>
+                <div class="line"><span></span></div>
+                <p>05</p>
+            </div>
+        </div>
+    </div>
+<script>
+    var btn = document.getElementById("btn");
+    var light = document.getElementById("light");
+    var logoimage = document.getElementById("logoimage");
+    function toggleBtn(){
+        btn.classList.toggle("active");
+        light.classList.toggle("on");
+    }
+    function toggle(){
+        logoimage.classList.toggle("");
+    }
+
+</script>
+</body>
+</html>
