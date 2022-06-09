@@ -2,7 +2,9 @@
 Here you can Get a view toward website,Where I used HTML and CSS with some basic of javascript.
 You can view web page below!
 https://vinaychaurasiyaa.github.io/VinayChauarasiyaA.github.io/
-Mostly if you get curious about my light is working now.. Feel free to read ahead.Because i got a lot Of questions regarding it.
+
+
+Mostly if you get curious about how my light is working I have explained below.
 
 *MOST ASKED QUESTIONS*
 
