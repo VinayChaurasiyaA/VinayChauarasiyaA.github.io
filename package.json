@@ -1,0 +1,27 @@
+{
+  "name": "vinaychauarasiyaa.github.io",
+  "version": "1.0.0",
+  "description": "Here you can Get a view toward website,Where I used HTML and CSS with some basic of javascript.\r You can view web page below!\r https://vinaychaurasiyaa.github.io/VinayChauarasiyaA.github.io/",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VinayChaurasiyaA/VinayChauarasiyaA.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VinayChaurasiyaA/VinayChauarasiyaA.github.io/issues"
+  },
+  "homepage": "https://github.com/VinayChaurasiyaA/VinayChauarasiyaA.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.9"
+  }
+}

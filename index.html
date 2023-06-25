@@ -1,55 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lamping</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="hero">
-        <nav>
-            <img src="images%20and%20files/menu.png" alt="menu page" class="menuimage" id="menuimage">
-            <img src="images%20and%20files/logo.png" alt="logo page" class="logoimage" id="logoimage" onclick="toggleImage()">
-            <ul>
-                <li> <a href="https://www.amazon.in/Indoor-Lighting/b?ie=UTF8&node=1380485031">Latest</a></li>
-                <li><a href="https://in.pinterest.com/ylighting/designer-modern-lighting-that-makes-a-statement/">Modern</a></li>
-                <li><a href="https://www.whiteteak.com/?utm_campaign=ATCK_Brand&utm_source=google&utm_medium=cpc&utm_content=439592535343&utm_term=living%20lights&adgroupid=104714058849&gclid=CjwKCAjwtIaVBhBkEiwAsr7-c1G9X2sYJL-rgIKuM1cZWYpKU4f7Z-zMg-hCeNi_iNvUe0H27Bd2NxoCzEsQAvD_BwE">Contempory</a></li>
-                <li><a href="https://www.made-in-china.com/manufacturers/ceiling-light.html">Afforadable</a></li>
-            </ul>
-            <button type="button" onclick="toggleBtn()" id="btn"> <span></span></button>
-        </nav>
+      <nav>
+        <img
+          src="images%20and%20files/menu.png"
+          alt="menu page"
+          class="menuimage"
+          id="menuimage"
+        />
+        <img
+          src="images%20and%20files/logo.png"
+          alt="logo page"
+          class="logoimage"
+          id="logoimage"
+          onclick="toggleImage()"
+        />
+        <ul>
+          <li class="border-white hover:border-b-4">
+            <a
+              href="https://www.amazon.in/Indoor-Lighting/b?ie=UTF8&node=1380485031"
+              >Latest</a
+            >
+          </li>
+          <li class="border-white hover:border-b-4">
+            <a
+              href="https://in.pinterest.com/ylighting/designer-modern-lighting-that-makes-a-statement/"
+              >Modern</a
+            >
+          </li>
+          <li class="border-white hover:border-b-4">
+            <a
+              href="https://www.whiteteak.com/?utm_campaign=ATCK_Brand&utm_source=google&utm_medium=cpc&utm_content=439592535343&utm_term=living%20lights&adgroupid=104714058849&gclid=CjwKCAjwtIaVBhBkEiwAsr7-c1G9X2sYJL-rgIKuM1cZWYpKU4f7Z-zMg-hCeNi_iNvUe0H27Bd2NxoCzEsQAvD_BwE"
+              >Contempory</a
+            >
+          </li>
+          <li class="border-white hover:border-b-4">
+            <a
+              href="https://www.made-in-china.com/manufacturers/ceiling-light.html"
+              >Afforadable</a
+            >
+          </li>
+        </ul>
+        <button type="button" onclick="toggleBtn()" id="btn">
+          <span></span>
+        </button>
+      </nav>
 
-        <div class="lampcontainer">
-            <img src="images%20and%20files/lamp.png" alt="lampphoto" class="lamp">
-            <img src="images%20and%20files/light.png" alt="light" class="light" id="light">
+      <div class="lampcontainer">
+        <img src="images%20and%20files/lamp.png" alt="lampphoto" class="lamp" />
+        <img
+          src="images%20and%20files/light.png"
+          alt="light"
+          class="light"
+          id="light"
+        />
+      </div>
+      <div class="textcontainer">
+        <h1>
+          Latest <br />
+          in lighting
+        </h1>
+        <p>
+          This is the first lamp from our company.We're making a huge collection
+          of Modern Lamps in all categories from home use to office use.
+        </p>
+        <button>
+          <a class="hover:bg-green-600" href="">Check all other products</a>
+        </button>
+        <div class="control">
+          <p>01</p>
+          <div class="line"><span></span></div>
+          <p>03</p>
         </div>
-        <div class="textcontainer">
-            <h1>Latest 
-            <br> in lighting</h1>
-            <p>This is the first lamp from our company.We're making a huge collection of Modern
-            Lamps in all categories from home use to office use. </p>
-            <a href="">Check all other products</a>
-            <div class="control">
-                <p>04</p>
-                <div class="line"><span></span></div>
-                <p>05</p>
-            </div>
-        </div>
+      </div>
     </div>
-<script>
-    var btn = document.getElementById("btn");
-    var light = document.getElementById("light");
-    var logoimage = document.getElementById("logoimage");
-    function toggleBtn(){
+
+    <div class="secontion1 bg-[#1d2026] text-white h-screen">
+      <h1 class="font-bold text-[4rem] flex justify-center items-center">
+        About Us
+      </h1>
+      <div class="flex flex-wrap">
+        <div class="left w-1/2">
+          <div class="flex justify-center items-center">
+            <h1 class="font-bold text-green-500 text-[2rem]">Modern</h1>
+          </div>
+          <div class="w-[30rem] m-4">
+            <img
+              class=""
+              src="https://www.home-designing.com/wp-content/uploads/2022/01/unique-pendant-lights.jpg"
+              alt=""
+            />
+          </div>
+          <p class="w-3/4 m-2 text-[#00986f]">
+            Modern lighting is one of the quickest ways to rejuvenate your home.
+            Go room by room and see where a new lamp, pendant or chandelier
+            could make a difference or commit to refreshing your entire space
+            with a new lighting story that revolves around a central theme or
+            new finish.
+          </p>
+        </div>
+        <div class="right w-1/2">
+          <div class="flex justify-center items-center">
+            <h1 class="font-bold text-green-500 text-[2rem]">Geriatric</h1>
+          </div>
+          <div class="w-[30rem] m-4 flex">
+            <img
+              class="w-[20rem] h-[10rem]"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcVM31G7EBT6jCyfQEUbQIeRwLVu5aCBe7jw&usqp=CAU"
+              alt=""
+            />
+            <img
+              class="w-[20rem] h-[10rem]"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2rpbaTumexwTBN4NmbAwkTn93nIV1Icfxcw&usqp=CAU"
+              alt=""
+            />
+          </div>
+          <p class="w-3/4 m-2 text-[#00986f]">
+            Geriatric lighting is one of the old ways to rejuvenate your home.
+            Go room by room and see where a new lamp, pendant or chandelier
+            could make a difference or commit to refreshing your entire space
+            with a new lighting story that revolves around a central theme or
+            new finish.
+          </p>
+        </div>
+      </div>
+      <div class="control mr-16">
+        <p>02</p>
+        <div class="line"><span class="more"></span></div>
+        <p>03</p>
+      </div>
+      <div class="lastsection"></div>
+      <div class="control mr-16">
+        <p>02</p>
+        <div class="line"><span class="much-more"></span></div>
+        <p>03</p>
+      </div>
+    </div>
+    <script>
+      var btn = document.getElementById("btn");
+      var light = document.getElementById("light");
+      var logoimage = document.getElementById("logoimage");
+      function toggleBtn() {
         btn.classList.toggle("active");
         light.classList.toggle("on");
-    }
-    function toggle(){
+      }
+      function toggle() {
         logoimage.classList.toggle("");
-    }
-
-</script>
-</body>
+      }
+    </script>
+  </body>
 </html>
